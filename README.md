@@ -19,9 +19,8 @@ The actual erd from draw.io could be found in (here) [https://viewer.diagrams.ne
 
 ## ERD Design Considerations
 
-The design of the Entity-Relationship Diagram (ERD) is influenced by several factors, such as the number of rules, the frequency of database reads and writes, and the overall complexity of the data model. Given the assumption of a manageable number of rules, the following initial design was proposed:
-
-### Proposed ERD Entities
+The design of the Entity-Relationship Diagram (ERD) is influenced by several factors, such as the number of rules, the frequency of database reads and writes, and the overall complexity of the data model. Given the assumption of a manageable number of rules, the original design should work fine but if there are many rules for which we need to create table
+then may be it's not feasible. I think we could add follwoing entities instead of rule specific ones;
 
 1. **Rule**:
    - **Attributes**: `rule_id`, `name`, `description`
