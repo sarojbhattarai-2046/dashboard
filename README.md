@@ -34,7 +34,7 @@ then may be it's not feasible. I think we could add follwoing entities instead o
    - **Attributes**: `ruleAssociation_id`, `players_borrowing_division`, `round_applied_to`, `min_matches_played`
    - **Purpose**: Defines specific conditions under which the rules apply, such as the division from which players can be borrowed, the rounds applicable, and minimum match requirements.
 
-This original design aims to balance the simplicity of the design for fewer rules set.
+The original design aims to balance the simplicity of the design for fewer rules set.
 
 
 ## TASK 2 - SQL Query
