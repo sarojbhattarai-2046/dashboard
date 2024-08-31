@@ -84,5 +84,5 @@ WHERE
 
 I have implemented the first UI(players borrowing rule) and tried to improvise little bit here and there.
 
-The application is deployed in vercel and accessible in the link 
+The application is deployed in vercel and accessible in the (link) [https://dashboard-three-tawny-35.vercel.app/admin]
 
