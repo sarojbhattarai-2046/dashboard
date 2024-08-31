@@ -35,14 +35,6 @@ The design of the Entity-Relationship Diagram (ERD) is influenced by several fac
    - **Attributes**: `ruleAssociation_id`, `players_borrowing_division`, `round_applied_to`, `min_matches_played`
    - **Purpose**: Defines specific conditions under which the rules apply, such as the division from which players can be borrowed, the rounds applicable, and minimum match requirements.
 
-### Considerations for Scalability
-
-If the number of rules grows significantly or if the complexity of rules increases, the initial design may need to be revisited. In such cases, consider the following alternatives:
-
-- **Dynamic Rule Management**: Implement a more flexible schema that allows for dynamic rule definitions and associations.
-- **Rule Templates**: Create templates for rules that can be reused and customized for different divisions or scenarios.
-- **Condition Optimization**: Develop a more nuanced condition system that can handle a wide range of rule variations without becoming overly complex.
-
 This approach aims to balance the simplicity of the design with the flexibility needed to accommodate future changes.
 
 
