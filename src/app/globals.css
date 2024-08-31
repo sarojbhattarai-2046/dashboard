@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-checkbox-box {
+  border: 1px solid #7bdcb5;
+}
+
+input[type="checkbox"]:checked + .p-checkbox-box  {
+  background: #7bdcb5;
+}
+
+.radio .p-radiobutton.p-highlight .p-radiobutton-box {
+  background-color: #7bdcb5;
+}
+
+.radio .p-radiobutton .p-radiobutton-box {
+  border: 1px solid #7bdcb5;
+}
+
+
+
